@@ -1,0 +1,40 @@
+  .aboutMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+  }
+
+.aboutText {
+    color: white;
+    font-size: x-large;
+}
+
+.aboutPic>img {
+    width: 300%;
+    height: 300%;
+    border-radius: 50%;
+}
+@media screen and (max-width: 1024px) {
+    .aboutMain {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        width: 70%;
+        height: 100%;
+        top: 10 ;
+        left: 0;
+        z-index: -5;
+        transition: .3s;
+        background: rgba(0, 0, 0, 0.1)
+    }
+
+    .aboutPic>img {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+    }
+}

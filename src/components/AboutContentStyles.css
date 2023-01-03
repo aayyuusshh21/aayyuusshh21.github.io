@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.about .right {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 700px;
+} 
+
+.about .right p {
+    margin: 1.2rem 0;
+    color: white;
+}
+.left img {
+    width: 80%;
+    margin-left: 100%;
+    border-radius: 50%;
+}
