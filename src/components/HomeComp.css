@@ -55,7 +55,7 @@
   }
 
   .details {
-    height: 20vh;
+    height: 30vh;
   }
 }
 
@@ -66,5 +66,9 @@
 
   .home .details p {
     font-size: 1.2rem;
+  }
+
+  .details {
+    height: 40vh;
   }
 }
