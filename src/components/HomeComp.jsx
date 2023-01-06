@@ -1,25 +1,18 @@
-import "./HeroImgStyles.css";
-import introImg from "../assets/intro-bg.jpg";
 import React from "react";
+import "./HomeComp.css";
 import { TypeAnimation } from "react-type-animation";
 
-import "../index.css";
-
-const HeroImg = () => {
+const HomeComp = () => {
   return (
-    <div className="hero">
-      <div className="mask">
-        <img className="intro-img" src={introImg} alt="Intro Image" />
-      </div>
-      <div className="content">
+    <div className="home">
+      <div className="details">
         <p>Hi I Am</p>
         <h1>AYUSH SINGH</h1>
         <h1>
           <TypeAnimation
             sequence={[
-               // Waits 2s
               "FULL STACK WEB DEVELOPER",
-              1000, // Types 'Three' without deleting 'Two'
+              1000,
               " ",
               1000,
               () => {
@@ -32,18 +25,16 @@ const HeroImg = () => {
             style={{ color: "white" }}
           />
         </h1>
-
-        <div>
-          <a href="" className="btn">
-            Projects
-          </a>
-          <a href="" className="btn-light">
-            Contact
-          </a>
-        </div>
+      </div>
+      <div className="gif">
+        <img
+          className="png"
+          src="https://user-images.githubusercontent.com/69011963/137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif"
+          alt=""
+        />
       </div>
     </div>
   );
 };
 
-export default HeroImg;
+export default HomeComp;

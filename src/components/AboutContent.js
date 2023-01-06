@@ -1,15 +1,15 @@
 import "./AboutContentStyles.css";
-import profilePic from "../assets/profile-pic.png";
+import profilePic from "../assets/profilepic1.jpg";
 import React from "react";
 
 const AboutContent = () => {
   return (
     <div className="about">
-      <div className="left">
-        <img src={profilePic} />
+      <div className="leftProfile">
+        <img src={profilePic} alt="Profile Pic" />
       </div>
       <div className="right">
-        <h1 style={{ color: "white" }}>About Me</h1>
+        <h1>About Me</h1>
         <p>
           A passionate aspiring Full Stack Developer skilled in MERN stack.
           Strong in design and integration with intuitive problem-solving

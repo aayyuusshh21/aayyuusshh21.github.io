@@ -3,7 +3,7 @@ import "./FooterStyles.css";
 import React from "react";
 import {
   FaFacebook,
-  FaHome,
+  // FaHome,
   FaLinkedin,
   FaMailBulk,
   FaPhone,

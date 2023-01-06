@@ -1,3 +1,5 @@
+/* 1024, 640 */
+
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -8,7 +10,8 @@
 }
 
 body {
-  background: black;
+  /* background: rgb(19, 12, 58); */
+  background-image: url("https://st4.depositphotos.com/21149286/23043/i/450/depositphotos_230430848-stock-photo-stars-night-sky-background-texture.jpg");
 }
 
 h1,

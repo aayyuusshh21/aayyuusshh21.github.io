@@ -1,0 +1,70 @@
+.home {
+  padding: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.png {
+  border-radius: 5%;
+}
+
+.home .details h1 {
+  font-size: 4rem;
+  padding: 0.6rem 0 1.5rem;
+  color: white;
+}
+
+.home .details p {
+  font-size: 1.4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+}
+
+.details {
+  height: 40vh;
+}
+
+.details::after {
+  content: "|";
+  animation: cursor 1.1s infinite step-start;
+}
+
+@keyframes cursor {
+  50% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+  }
+  .home .details h1 {
+    font-size: 3rem;
+  }
+
+  .png {
+    width: 100%;
+  }
+
+  .home .details p {
+    font-size: 1.4rem;
+  }
+
+  .details {
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .home .details h1 {
+    font-size: 2rem;
+  }
+
+  .home .details p {
+    font-size: 1.2rem;
+  }
+}
